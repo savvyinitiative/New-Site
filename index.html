@@ -580,13 +580,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            gap: 1.5em;
         }
     
         .countdown-item {
-            margin: 0 20px;
-            padding: 20px;
+            padding: 1.925em 1.125em 1.125em;
             background-color: #f3bb05;
             border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
     
@@ -599,6 +602,24 @@
         .countdown-label {
             font-size: 18px;
             color: #fff;
+        }
+
+        @media screen and (max-width: 620px) {
+            .countdown-wrapper {
+		gap: 0.5em;
+	}
+
+	.countdown-item {
+		gap: 0;
+            padding: 0.925em 0.225em 0.525em;
+	}
+
+	.countdown-value {
+		font-size: 30px;
+	}
+    .countdown-label {
+		font-size: 16px;
+	}
         }
     </style>
     

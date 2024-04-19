@@ -33,6 +33,7 @@
 	border: none;
 	outline: none;
 	font-size: 100%;
+	box-sizing: border-box;
 	line-height: inherit;
 }
 :root {
@@ -3257,7 +3258,7 @@ section.news span.title-sep-right {
 .news-block .lower-content a.news-btn span:hover {
 	color: var(--theme-main-color);
 }
-a.news-btn {} .news-block .post-cat:hover {
+.news-block .post-cat:hover {
 	color: #fff;
 	background: var(--theme-main-color);
 }
@@ -3846,7 +3847,7 @@ section.team-section {
     margin: 0 auto; /* To center the images */
 }
 ;
-}
+
 .team-block {
 	position: relative;
 	margin-bottom: 30px;
@@ -4166,7 +4167,7 @@ section.event-details-section {
 	position: relative;
 	padding-left: 105px;
 }
-.event-details-block .info-box {} .event-details-block-two .text {
+.event-details-block-two .text {
 	font-size: 16px;
 	color: #616161;
 	font-weight: 400;
@@ -5916,7 +5917,7 @@ section.our-contact-section {
 	font-family: var(--primary_font);
 	margin-top: 80px;
 }
-.error-block {} .error-block .text {
+.error-block .text {
 	font-size: 22px;
 	line-height: 1.2em;
 	color: #616161;
@@ -5954,7 +5955,7 @@ section.error-section {
 .gallery-block-four:hover .gallery-box.s-two {
 	opacity: 1;
 }
-.gallery-block-four .gallery-button a {} .gallery-block-four {
+.gallery-block-four {
 	position: relative;
 	margin-bottom: 30px;
 }
@@ -6564,7 +6565,6 @@ section.blog-grid-section {
 }
 .sidebar-block .popular-tag li {
 	position: relative;
-	display: inline-block;
 	float: left;
 	margin: 0 5px 10px;
 }
