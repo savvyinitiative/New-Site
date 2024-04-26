@@ -40,6 +40,10 @@
 	--primary_font: 'Roboto', sans-serif;
 	--secondary_font: 'Inter', sans-serif;
 }
+html {
+	overflow-x: hidden;
+	width: 100vw;
+}
 body {
 	font-size: 16px;
 	line-height: 26px;
@@ -2956,7 +2960,7 @@ section.partner.style-four {
 	        flex: 0 0 20%;
 	max-width: 20%;
 	width: 100%;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 	text-align: center;
 	max-width: 100%;
 }
@@ -2999,6 +3003,16 @@ section.partner.style-four {
 }
 .brand-block-two .overlay-box a img {
 	opacity: 1;
+}
+
+.partner .owl-stage {
+	display: flex;
+	align-items: center;
+	gap: 2em;
+}
+
+.partner .owl-stage .sponsor-img {
+	width: 110px !important;
 }
 /* funfact */
 
@@ -3999,6 +4013,11 @@ section.volunteer-section .shape-two {
 	color: #ffffff;
 	font-weight: 700;
 }
+
+.cta-block-two .count-outer .plus {
+	padding-right: 0.1em;
+}
+
 .cta-block-two .count-outer.count-box a i {
 	margin-left: 12px;
 }
@@ -4401,6 +4420,23 @@ section.service-section .bg {
 	background: #f7faf3;
 	z-index: -1;
 	background-repeat: no-repeat;
+}
+.host-container {
+	max-width: fit-content;
+	margin: 0 auto 3em;
+}
+.host-container p {
+	text-align: center;
+	font-size: 2rem;
+	color: #111;
+	font-weight: 500;
+	margin-bottom: 1em;
+}
+.host-container p:last-child {
+	text-align: center;
+	margin-top: 0.5em;
+	font-size: 1.5rem;
+	font-weight: 300;
 }
 .service-block:before {
 	background: #fff;
