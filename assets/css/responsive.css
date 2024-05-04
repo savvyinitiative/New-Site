@@ -121,6 +121,14 @@
 		margin-right: 0;
 		width: 100%;
 	}
+
+	.testimonial-block-three .icon {
+		right: 10px;
+	}
+
+	.testimonial-block-three .text, .author-content {
+		margin-left: 0 !important;
+	}
 	
 }
 
@@ -685,7 +693,9 @@
 		font-size: 40px;
 	}
 	
-	
+	.testimonial-block.three {
+
+	}
 }
 
 @media only screen and (max-width: 575px){
