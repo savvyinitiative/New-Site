@@ -8749,5 +8749,200 @@ a.carousel-nav-btn-s-1-next:hover:before {
     background: var(--theme-main-color);
 }
 
+.siraHeroSection {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2em 0 1em;
+    background: url('../images/savvy/celebration-light.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+.siraHeroSection .siraCopyBody {
+background-color: #90be54e3;
+padding: 3em 8%;
+max-width: 50rem;
+width: 100%;
+text-align: center;
+}
+
+
+.siraHeroSection .siraCopyBody p:first-of-type {
+margin-bottom: 0.8em;
+font-size: 2rem;
+line-height: 1.3;
+font-weight: 500;
+}
+
+
+.siraHeroSection .siraCopyBody p {
+color: #232323;
+margin: 0.5em 0;
+}
+
+
+.siraHeroSection .siraCopyBody img {
+color: #fff;
+}
+
+
+a.bookTicketCard {
+    background: url('../images/savvy/hotel.jpg') no-repeat;
+    text-decoration: none !important;
+    display: flex;
+    color: #232323;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+	position: relative;
+    max-width: 40rem;
+    width: 100%;
+    margin: 6em auto;
+    min-height: 15rem;
+    flex-direction: column;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+a.bookTicketCard p {
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+	z-index: 2;
+	color: #fff;
+	text-align: center;
+}
+
+a.bookTicketCard::before {
+	width: 100%;
+	height: 100%;
+	content: "";
+	position: absolute;
+	display: block;
+	background: #0000008f;
+	
+}
+
+a.bookTicketCard:hover .primary_btn:before {
+    -webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
+    transform: translate(-10px, -10px);
+}
+
+.aboutSiraContainer {
+	margin: 8em 0 0;
+}
+
+.aboutSiraContainer .section-1 {
+	display: flex;
+	justify-content: center;
+	gap: 2em;
+	margin: 0 auto 4em;
+	width: fit-content;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.aboutSiraContainer .section-1 img, .aboutSiraContainer .section-1 div {
+	max-width: 30rem;
+	width: 100%;
+}
+
+.aboutSiraContainer .section-1 div h2 {
+	text-transform: capitalize;
+	margin-bottom: 0.5em;
+}
+
+.goalsObjectivesSection {
+	margin: 8em 0;
+}
+
+.goalsObjectivesSection h2 {
+	color: #90be54;
+	font-size: 2.5rem;
+	text-align: center;
+	margin: 0.5em 0 1.5em;
+}
+
+.goalsObjectivesSection ul.goalsWrapper {
+	display: flex;
+	gap: 4em;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 8em;
+}
+
+ul.goalsWrapper li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1em;
+}
+
+ul.goalsWrapper li img {
+	width: 100px;
+}
+
+ul.goalsWrapper li p {
+	text-transform: capitalize;
+	color: #232323;
+	font-weight: 500;
+	font-size: 1.3rem;
+}
+
+.targetContainer {
+	display: flex;
+	gap: 3em;
+	row-gap: 6em;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.targetContainer div {
+	background: #90be54;
+	padding: 7em 2.5em;
+	flex: 1;
+	height: 25rem;
+	position: relative;
+	max-width: 20rem;
+}
+
+.targetContainer span {
+	border-radius: 50%;
+	height: 8rem;
+	width: 8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: -3em;
+	border: 5px solid #90be54;
+	background: #fff;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.targetContainer img {
+	width: 5rem;
+}
+
+.targetContainer h3 {
+	text-transform: uppercase;
+	margin-bottom: 0.5em;
+}
+
+.targetContainer div li {
+	list-style: disc;
+}
+
+.targetContainer div li {
+	color: #fff;
+	margin-bottom: 0.8em;
+}
+
 
 
