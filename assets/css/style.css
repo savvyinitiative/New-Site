@@ -3038,7 +3038,7 @@ section.partner.style-four {
 }
 
 .partner .owl-stage .sponsor-img {
-	width: 110px !important;
+	width: 250px !important;
 	display: block !important;
 }
 
@@ -8798,12 +8798,18 @@ a.bookTicketCard {
     align-items: center;
     padding: 1.5em;
 	position: relative;
-    max-width: 40rem;
+    max-width: 70rem;
     width: 100%;
     margin: 6em auto;
-    min-height: 15rem;
+    min-height: 12rem;
     flex-direction: column;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 572px) {
+	a.bookTicketCard {
+		min-height: 20rem;
+	}
 }
 
 
@@ -8856,7 +8862,9 @@ a.bookTicketCard:hover .primary_btn:before {
 }
 
 .goalsObjectivesSection {
-	margin: 8em 0;
+	margin: 8em auto;
+	max-width: 63.93rem;
+	width: 100%;
 }
 
 .goalsObjectivesSection h2 {
@@ -8868,7 +8876,7 @@ a.bookTicketCard:hover .primary_btn:before {
 
 .goalsObjectivesSection ul.goalsWrapper {
 	display: flex;
-	gap: 4em;
+	gap: 2em;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-bottom: 8em;
@@ -8879,6 +8887,12 @@ ul.goalsWrapper li {
 	flex-direction: column;
 	align-items: center;
 	gap: 1em;
+	justify-content: center;
+	height: 15rem;
+	width: 16.43rem;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
 }
 
 ul.goalsWrapper li img {
@@ -8888,8 +8902,27 @@ ul.goalsWrapper li img {
 ul.goalsWrapper li p {
 	text-transform: capitalize;
 	color: #232323;
+	text-align: center;
 	font-weight: 500;
 	font-size: 1.3rem;
+}
+
+ul.goalsWrapper li div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	height: 100%;
+	z-index: 3;
+	padding: 1em;
+	transition: all 0.25s linear;
+	transform: translateY(15rem);
+	background: rgba(0, 0, 0, 0.80);
+}
+
+ul.goalsWrapper li:hover div {
+	transform: translateY(0);
 }
 
 .targetContainer {
@@ -8942,6 +8975,15 @@ ul.goalsWrapper li p {
 .targetContainer div li {
 	color: #fff;
 	margin-bottom: 0.8em;
+}
+
+.siraHeader {
+	text-align: center;
+	margin: 4em 0 2em;
+}
+
+.siraJourney {
+	
 }
 
 
