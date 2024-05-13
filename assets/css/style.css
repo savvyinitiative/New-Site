@@ -8755,8 +8755,9 @@ a.carousel-nav-btn-s-1-next:hover:before {
     align-items: center;
     justify-content: center;
     padding: 0 2em 0 1em;
-    background: url('../images/savvy/celebration-light.jpg') no-repeat;
+    background: url('../images/savvy/celebration-dark.jpg') no-repeat;
     background-size: cover;
+	background-position: bottom;
 }
 
 
@@ -8798,12 +8799,15 @@ a.bookTicketCard {
     align-items: center;
     padding: 1.5em;
 	position: relative;
-    max-width: 70rem;
     width: 100%;
     margin: 6em auto;
     min-height: 12rem;
     flex-direction: column;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+	background-size: cover;
+}
+
+a.bookTicketCard i {
+	margin-left: 0.8em;
 }
 
 @media (max-width: 572px) {
@@ -8863,7 +8867,7 @@ a.bookTicketCard:hover .primary_btn:before {
 
 .goalsObjectivesSection {
 	margin: 8em auto;
-	max-width: 63.93rem;
+	max-width: 71.93rem;
 	width: 100%;
 }
 
@@ -8882,6 +8886,14 @@ a.bookTicketCard:hover .primary_btn:before {
 	margin-bottom: 8em;
 }
 
+.targetAudience .tab-content ul {
+	padding-left: 1.5em;
+}
+
+.targetAudience .tab-content li {
+	list-style: disc;
+}
+
 ul.goalsWrapper li {
 	display: flex;
 	flex-direction: column;
@@ -8893,6 +8905,7 @@ ul.goalsWrapper li {
 	cursor: pointer;
 	overflow: hidden;
 	position: relative;
+	background: #fbb03f;
 }
 
 ul.goalsWrapper li img {
@@ -8915,6 +8928,11 @@ ul.goalsWrapper li div {
 	color: #fff;
 	height: 100%;
 	z-index: 3;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 	padding: 1em;
 	transition: all 0.25s linear;
 	transform: translateY(15rem);
@@ -8980,10 +8998,6 @@ ul.goalsWrapper li:hover div {
 .siraHeader {
 	text-align: center;
 	margin: 4em 0 2em;
-}
-
-.siraJourney {
-	
 }
 
 
