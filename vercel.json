@@ -5,20 +5,6 @@
       "destination": "/:path.html"
     }
   ],
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html",
-      "statusCode": 404,
-      "has": [
-        {
-          "type": "header",
-          "key": "x-vercel-error",
-          "value": "true"
-        }
-      ]
-    }
-  ],
   "routes": [
     { "handle": "filesystem" },
     { "src": "/(.*)", "status": 404, "dest": "/index.html" }
