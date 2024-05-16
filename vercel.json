@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/:any*", "destination": "/" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/$1.html" }
-  ]
-}
