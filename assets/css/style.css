@@ -8865,140 +8865,58 @@ a.bookTicketCard:hover .primary_btn:before {
 	margin-bottom: 0.5em;
 }
 
-.goalsObjectivesSection {
-	margin: 8em auto;
-	max-width: 71.93rem;
-	width: 100%;
-}
-
-.goalsObjectivesSection h2 {
-	color: #90be54;
-	font-size: 2.5rem;
-	text-align: center;
-	margin: 0.5em 0 1.5em;
-}
-
-.goalsObjectivesSection ul.goalsWrapper {
-	display: flex;
-	gap: 2em;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-bottom: 8em;
-}
-
-.targetAudience .tab-content ul {
-	padding-left: 1.5em;
-}
-
-.targetAudience .tab-content li {
-	list-style: disc;
-}
-
-ul.goalsWrapper li {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 1em;
-	justify-content: center;
-	height: 15rem;
-	width: 16.43rem;
-	cursor: pointer;
-	overflow: hidden;
-	position: relative;
-	background: #fbb03f;
-}
-
-ul.goalsWrapper li img {
-	width: 100px;
-}
-
-ul.goalsWrapper li p {
-	text-transform: capitalize;
-	color: #232323;
-	text-align: center;
-	font-weight: 500;
-	font-size: 1.3rem;
-}
-
-ul.goalsWrapper li div {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	color: #fff;
-	height: 100%;
-	z-index: 3;
-	font-size: 1.2rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	padding: 1em;
-	transition: all 0.25s linear;
-	transform: translateY(15rem);
-	background: rgba(0, 0, 0, 0.80);
-}
-
-ul.goalsWrapper li:hover div {
-	transform: translateY(0);
-}
-
-.targetContainer {
-	display: flex;
-	gap: 3em;
-	row-gap: 6em;
-	flex-wrap: wrap;
-	justify-content: center;
-	width: fit-content;
-	margin: 0 auto;
-}
-
-.targetContainer div {
-	background: #90be54;
-	padding: 7em 2.5em;
-	flex: 1;
-	height: 25rem;
-	position: relative;
-	max-width: 20rem;
-}
-
-.targetContainer span {
-	border-radius: 50%;
-	height: 8rem;
-	width: 8rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: absolute;
-	top: -3em;
-	border: 5px solid #90be54;
-	background: #fff;
-	left: 50%;
-	transform: translateX(-50%);
-}
-
-.targetContainer img {
-	width: 5rem;
-}
-
-.targetContainer h3 {
-	text-transform: uppercase;
-	margin-bottom: 0.5em;
-}
-
-.targetContainer div li {
-	list-style: disc;
-}
-
-.targetContainer div li {
-	color: #fff;
-	margin-bottom: 0.8em;
-}
-
 .siraHeader {
 	text-align: center;
 	margin: 4em 0 2em;
 }
 
+.fixedCountdownContainer  {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	background: url('/assets/images/Sira4-01.png');
+	justify-content: center;
+	background-position-y: -9px;
+}
 
+.fixedCountdownContainer p {
+color: #90be54;
+font-weight: 600;
+}
 
+.fixedCountdownContainer .countdown-wrapper {
+gap: 0;
+}
+
+.fixedCountdownContainer .countdown-item {
+flex-direction: row;
+padding: 0.2em 0;
+gap: 0.3em;
+background: unset;
+box-shadow: none;
+border-radius: 0;
+}
+
+.fixedCountdownContainer .countdown-value {
+font-size: 1rem;
+color: white;
+}
+
+.fixedCountdownContainer .countdown-label {
+font-size: 0.75rem;
+color: white;
+font-weight: 600;
+}
+
+.fixedCountdownContainer .divider {
+margin: 0 0.3em;
+color: white;
+font-weight: 600;
+}
+
+span.soonTag {
+	background: #90be54;
+	color: white;
+	padding: 0 0.2em;
+	font-size: 0.75rem;
+}
