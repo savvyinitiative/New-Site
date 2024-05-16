@@ -1,12 +1,8 @@
 {
   "rewrites": [
-    {
-      "source": "/:path",
-      "destination": "/:path.html"
-    }
+    { "source": "/:any*", "destination": "/" }
   ],
   "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "status": 404, "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "/$1.html" }
   ]
 }
