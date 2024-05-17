@@ -32,8 +32,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 const siraContainer = document.querySelectorAll(".fixedCountdownContainer");
 siraContainer.forEach((container) =>
-    container.addEventListener("click", (e) => {
-    if (e.target.classList.value === "innerWrapper" && !window.location.includes('sira')) {
+  container.addEventListener("click", (e) => {
+    if (
+      (e.target.classList.value === "fixedCountdownContainer") ||
+        (e.target.classList.value === "innerWrapper") &&
+      !window.location.href.includes("sira")
+    ) {
       window.open("sira.html", "_blank");
     }
   })
@@ -74,11 +78,6 @@ const countdownTimer = setInterval(() => {
     .querySelectorAll(".seconds")
     .forEach((item) => (item.innerHTML = seconds));
 
-  document.getElementById("months").innerHTML = months;
-  document.getElementById("days").innerHTML = days;
-  document.getElementById("hours").innerHTML = hours;
-  document.getElementById("minutes").innerHTML = minutes;
-  document.getElementById("seconds").innerHTML = seconds; // Update seconds
 
   if (difference <= 0) {
     clearInterval(countdownTimer);
