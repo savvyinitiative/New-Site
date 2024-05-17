@@ -53,31 +53,37 @@
         <!-- Header Upper -->
         <div class="header-upper">
             <div class="header-container-box">
-                <a target="_blank" href="sira.html" class="fixedCountdownContainer"><p>The Savvy Initiative Recognition Awards:</p>
-                        <div class="countdown-wrapper">
-                <div class="countdown-item">
-                    <span class="countdown-value months">0</span>
-                    <span class="countdown-label">Months</span>
-                </div> <span class="divider">:</span>
-                <div class="countdown-item">
-                    <span class="countdown-value days">0</span>
-                    <span class="countdown-label">Days</span>
-                </div><span class="divider">:</span>
-                <div class="countdown-item">
-                    <span class="countdown-value hours">0</span>
-                    <span class="countdown-label">Hours</span>
-                </div> <span class="divider">:</span>
-                <div class="countdown-item">
-                    <span class="countdown-value minutes">0</span>
-                    <span class="countdown-label">Minutes</span>
+                <div class="fixedCountdownContainer">
+                    <a class="parentLink" target="_blank" href="sira.html">
+                        <div class="innerWrapper">
+                            <p>The Savvy Initiative Recognition Awards (SIRA):</p>
+                            <div class="countdown-wrapper">
+                    <div class="countdown-item">
+                        <span class="countdown-value months">0</span>
+                        <span class="countdown-label">Months</span>
+                    </div> <span class="divider">:</span>
+                    <div class="countdown-item">
+                        <span class="countdown-value days">0</span>
+                        <span class="countdown-label">Days</span>
+                    </div><span class="divider">:</span>
+                    <div class="countdown-item">
+                        <span class="countdown-value hours">0</span>
+                        <span class="countdown-label">Hours</span>
+                    </div> <span class="divider">:</span>
+                    <div class="countdown-item">
+                        <span class="countdown-value minutes">0</span>
+                        <span class="countdown-label">Minutes</span>
+                    </div>
+                   <span class="divider">:</span>
+                    <div class="countdown-item">
+                        <span class="countdown-value seconds">0</span>
+                        <span class="countdown-label">Seconds</span>
+                    </div>
+                    <a class="bookHere" target="_blank" href="https://www.eventbrite.com/e/savvy-initiative-recognitions-award-sira-tickets-792600267737?aff=oddtdtcreator">Book Ticket Here</a>
                 </div>
-               <span class="divider">:</span>
-                <div class="countdown-item">
-                    <span class="countdown-value seconds">0</span>
-                    <span class="countdown-label">Seconds</span>
+                        </div>
+                        </a>
                 </div>
-            </div>
-                    </a>
                 <div class="inner-container">
                     <div class="left-column">
                         <div class="logo">
@@ -153,31 +159,37 @@
         <div class="sticky-header">
             <div class="header-upper">
                 <div class="header-container-box">
-                    <a target="_blank" href="sira.html" class="fixedCountdownContainer"><p>The Savvy Initiative Recognition Awards:</p>
-                        <div class="countdown-wrapper">
-                <div class="countdown-item">
-                    <span class="countdown-value months">0</span>
-                    <span class="countdown-label">Months</span>
-                </div> <span class="divider">:</span>
-                <div class="countdown-item">
-                    <span class="countdown-value days">0</span>
-                    <span class="countdown-label">Days</span>
-                </div><span class="divider">:</span>
-                <div class="countdown-item">
-                    <span class="countdown-value hours">0</span>
-                    <span class="countdown-label">Hours</span>
-                </div> <span class="divider">:</span>
-                <div class="countdown-item">
-                    <span class="countdown-value minutes">0</span>
-                    <span class="countdown-label">Minutes</span>
+                    <div class="fixedCountdownContainer">
+                    <a class="parentLink" target="_blank" href="sira.html">
+                        <div class="innerWrapper">
+                            <p>The Savvy Initiative Recognition Awards (SIRA):</p>
+                            <div class="countdown-wrapper">
+                    <div class="countdown-item">
+                        <span class="countdown-value months">0</span>
+                        <span class="countdown-label">Months</span>
+                    </div> <span class="divider">:</span>
+                    <div class="countdown-item">
+                        <span class="countdown-value days">0</span>
+                        <span class="countdown-label">Days</span>
+                    </div><span class="divider">:</span>
+                    <div class="countdown-item">
+                        <span class="countdown-value hours">0</span>
+                        <span class="countdown-label">Hours</span>
+                    </div> <span class="divider">:</span>
+                    <div class="countdown-item">
+                        <span class="countdown-value minutes">0</span>
+                        <span class="countdown-label">Minutes</span>
+                    </div>
+                   <span class="divider">:</span>
+                    <div class="countdown-item">
+                        <span class="countdown-value seconds">0</span>
+                        <span class="countdown-label">Seconds</span>
+                    </div>
+                    <a class="bookHere" target="_blank" href="https://www.eventbrite.com/e/savvy-initiative-recognitions-award-sira-tickets-792600267737?aff=oddtdtcreator">Book Ticket Here</a>
                 </div>
-               <span class="divider">:</span>
-                <div class="countdown-item">
-                    <span class="countdown-value seconds">0</span>
-                    <span class="countdown-label">Seconds</span>
+                        </div>
+                        </a>
                 </div>
-            </div>
-                    </a>
                     <div class="inner-container">
                         <div class="left-column">
                             <div class="logo">
@@ -677,48 +689,6 @@
         }
     </style>
     
-    <script>
-        // Function to get Pacific Standard Time offset in milliseconds
-        function getPSTOffset() {
-            // PST is 8 hours behind UTC
-            return -8 * 60 * 60 * 1000;
-        }
-    
-        const countdownDate = new Date('2024-07-20T00:00:00-08:00').getTime(); // Set countdown date with PST offset
-    
-        const countdownTimer = setInterval(() => {
-            const now = new Date().getTime() + getPSTOffset(); // Get current time with PST offset
-            const difference = countdownDate - now;
-    
-            const months = Math.floor(difference / (1000 * 60 * 60 * 24 * 30));
-            const days = Math.floor((difference % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((difference % (1000 * 60)) / 1000); // Calculate seconds
-    
-            document.getElementById('months').innerHTML = months;
-            document.getElementById('days').innerHTML = days;
-            document.getElementById('hours').innerHTML = hours;
-            document.getElementById('minutes').innerHTML = minutes;
-            document.getElementById('seconds').innerHTML = seconds; // Update seconds
-
-            document.querySelectorAll('.months').forEach(item => item.innerHTML = months);
-        document.querySelectorAll('.days').forEach(item => item.innerHTML = days);
-        document.querySelectorAll('.hours').forEach(item => item.innerHTML = hours);
-        document.querySelectorAll('.minutes').forEach(item => item.innerHTML = minutes);
-        document.querySelectorAll('.seconds').forEach(item => item.innerHTML = seconds);
-    
-            if (difference <= 0) {
-                clearInterval(countdownTimer);
-                document.getElementById('countdown').innerHTML = "Thanks for attending SIRA 2024. See you at the next edition.";
-            }
-        }, 1000);
-    </script>
-    
-
-    
-    
-
     <!-- testimonial section two -->
     <section class="testimonial-section-three">
         <div class="theme_container">

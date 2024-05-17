@@ -820,7 +820,7 @@ a.primary_btn-two.s-two:before {
 /* Header Upper */
 
 .main-header .header-upper .left-column .logo {
-	margin: 22px 0;
+	/* margin: 22px 0;y */
 	margin-right: 70px;
 }
 .main-header .header-upper .navbar-right {
@@ -8035,8 +8035,8 @@ section.banner-section-one.s-two .banner-block-one .content-box .banner-slider-b
 	bottom: 0;
 }
 .main-header.header-style-four .main-menu .navigation>li {
-	padding-top: 45px;
-	padding-bottom: 45px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 .main-header.header-style-four .header-upper .left-column .logo {
 	margin-right: 0;
@@ -8750,7 +8750,7 @@ a.carousel-nav-btn-s-1-next:hover:before {
 }
 
 .siraHeroSection {
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8763,7 +8763,7 @@ a.carousel-nav-btn-s-1-next:hover:before {
 
 .siraHeroSection .siraCopyBody {
 background-color: #90be54e3;
-padding: 3em 8%;
+padding: 2em 8%;
 max-width: 50rem;
 width: 100%;
 text-align: center;
@@ -8871,12 +8871,50 @@ a.bookTicketCard:hover .primary_btn:before {
 }
 
 .fixedCountdownContainer  {
-	display: flex;
-	align-items: center;
-	gap: 0.5em;
 	background: url('/assets/images/Sira4-01.png');
-	justify-content: center;
 	background-position-y: -9px;
+	cursor: pointer;
+}
+
+.parentLink {
+	display: flex;
+}
+
+.innerWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@media (max-width: 992px) {
+	.fixedCountdownContainer:hover .innerWrapper {
+		animation-play-state: paused;
+	}
+    .innerWrapper {
+		justify-content: unset;
+        animation: 25s linear infinite marquee;
+    }
+
+}
+
+.innerWrapper .bookHere {
+	background: #9CCC65;
+	color: #232323;
+	padding: 0 0.5em;
+	font-size: 0.75rem;
+	margin-left: 1.5em;
+	font-weight: 600;
 }
 
 .fixedCountdownContainer p {
@@ -8886,6 +8924,8 @@ font-weight: 600;
 
 .fixedCountdownContainer .countdown-wrapper {
 gap: 0;
+display: flex;
+align-items: center;
 }
 
 .fixedCountdownContainer .countdown-item {
