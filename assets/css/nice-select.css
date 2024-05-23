@@ -5,7 +5,7 @@
     display: block;
     float: left;
     outline: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.2em;
     font-weight: 700;
     font-family: "Roboto";
@@ -113,7 +113,7 @@
       list-style: none;
       min-height: 40px;
       outline: none;
-      padding-left: 18px;
+      padding-left: 1.125rem;
       padding-right: 29px;
       text-align: left;
       -webkit-transition: all 0.2s;
