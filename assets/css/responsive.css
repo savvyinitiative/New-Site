@@ -19,7 +19,7 @@
 	}
 	.main-header.header-style-five .header-upper .left-column .logo {
 		transform: translateY(0);
-		margin-top: 18px;
+		margin-top: 1.125rem;
 	}
 }
 
@@ -853,7 +853,7 @@
 	}
 	
 	ul.bread-crumb li {
-		font-size: 16px;
+		font-size: 1rem;
 	}
 	
 	ul.bread-crumb li a {
@@ -886,7 +886,7 @@
 	}
 	
 	.error-block .text {
-		font-size: 18px;
+		font-size: 1.125rem;
 	}
 	.Donate-detalis-block h5 {
 		font-size: 30px;
