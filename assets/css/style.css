@@ -8960,3 +8960,15 @@ span.soonTag {
 	padding: 0 0.2em;
 	font-size: 0.75rem;
 }
+
+.teamContainer {
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.teamContainer .team-content {
+	max-width: 300px;
+	width: 100%;
+}
