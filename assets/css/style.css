@@ -3894,8 +3894,9 @@ section.team-section {
 	padding-bottom: 130px;
 }
 .team-block img {
-    max-width: 100%;
-    height: auto;
+    max-width: 18.187rem;
+    height: 21.25rem;
+	object-fit: cover;
     display: block;
     margin: 0 auto; /* To center the images */
 }
@@ -3975,6 +3976,17 @@ margin-bottom: 2.5em;
 .team-section .teamMembersContainer img {
 	margin: 0;
 	display: unset;
+}
+
+.savvyTeamMembers {
+	display: flex;
+	gap: 1.5em;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.savvyTeamMembers .team-block {
+	max-width: 291px;
 }
 /* partner section five */
 
