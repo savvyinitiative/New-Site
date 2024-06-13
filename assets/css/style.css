@@ -8867,6 +8867,14 @@ a.bookTicketCard:hover .primary_btn:before {
 	flex-wrap: wrap;
 }
 
+.siraHeading {
+	margin-bottom: 0.35em;
+}
+
+.theme_container ul {
+	margin-bottom: 1em;
+}
+
 .aboutSiraContainer .section-1 img, .aboutSiraContainer .section-1 div {
 	max-width: 30rem;
 	width: 100%;
