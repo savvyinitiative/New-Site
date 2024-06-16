@@ -8868,7 +8868,11 @@ a.bookTicketCard:hover .primary_btn:before {
 }
 
 .siraHeading {
-	margin-bottom: 0.35em;
+	margin: 0.8em 0 0.35em;
+}
+
+.awardsList {
+	font-family: 'Inter', sans-serif;
 }
 
 .theme_container ul {
