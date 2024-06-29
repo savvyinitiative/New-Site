@@ -3776,8 +3776,8 @@ section.what-we-do-section .bg {
 }
 section.what-we-do-section {
 	position: relative;
-	padding-top: 125px;
-	padding-bottom: 100px;
+	padding-top: 8em;
+	padding-bottom: 6.5em;
 }
 section.what-we-do-section .col-lg-3 {
 	margin-bottom: 1.875em;
@@ -3890,7 +3890,7 @@ section.what-we-do-section .col-lg-3 {
 
 section.team-section {
 	position: relative;
-	padding-top: 11.5rem;
+	padding-top: 4.5rem;
 	padding-bottom: 130px;
 }
 .team-block img {
@@ -3988,6 +3988,12 @@ margin-bottom: 2.5em;
 .savvyTeamMembers .team-block {
 	max-width: 291px;
 }
+
+.aboutPageTeamContainer img {
+	margin: 0 auto !important;
+	display: block !important;
+}
+
 /* partner section five */
 
 section.partner.style-five {
