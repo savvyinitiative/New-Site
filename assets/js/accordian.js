@@ -38,7 +38,7 @@ siraContainer.forEach((container) =>
         (e.target.classList.value === "innerWrapper") &&
       !window.location.href.includes("sira")
     ) {
-      window.open("sira.html", "_blank");
+      window.open("sira.html", "_self");
     }
   })
 );
