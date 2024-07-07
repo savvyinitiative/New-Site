@@ -4352,7 +4352,7 @@ section.event-details-section {
 .event-details-block-two .wrapper-box .image {
 	padding: 10px 10px;
 }
-.event-details-block-two .wrapper-box .image img {
+.event-details-block-two .wrapper-box .image {
 	margin-left: 0;
 	width: 100%;
 }
@@ -4437,6 +4437,11 @@ section.event-details-section {
 	margin-right: 0.75rem;
 	font-size: 19px;
 }
+
+.awardeesContainer h2 {
+	font-size: clamp(1.125rem, 4vw, 1.5rem);
+}
+
 /* service section */
 
 section.service-section {
@@ -8832,6 +8837,26 @@ a.bookTicketCard i {
 	a.bookTicketCard {
 		min-height: 20rem;
 	}
+
+	.widgets-section {
+		padding-top: 40px;
+	}
+
+	section.event-section {
+		padding: 3em 0;
+	}
+
+	section.partner {
+		padding-bottom: 0;
+	}
+
+	section.partner .sub-title.mb-40 {
+		padding-bottom: 0 !important;
+	}
+
+	/* .inner-container {
+		padding: ;
+	} */
 }
 
 
